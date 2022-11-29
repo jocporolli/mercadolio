@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #fbbc02;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    border-bottom: solid rgb(25, 25, 65);
+}
+
+h1{
+    font-family: 'Stylish', sans-serif;
+    color: rgb(25, 25, 65);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#icono{
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+div{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: rgb(25, 25, 65);
+}
+
+.transition{
+    font-size: 16px;
+    transition:.2s ease-in;
+}
+
+.transition:hover{
+    font-size: 17px;
+    color: #191941;
+}
+
+.barra{
+    display: inline;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#carouselExampleControls{
+    display: inline-block;
+    object-position: top;
+    background-size: cover;
+    height: 350px;
+    width: 100%;    
+}
+
+#jeder{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h2{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: 10;
+}
+
+h3{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: 10;
+}
+
+.seccion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 10px;
+    border: solid 2px #929292;
+    font-family: sans-serif;
+    font-weight: 10;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: #02acfb;
+    border: 0px;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.imgdest{
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.w-100{
+    height: 400px;
+    width: 100%;
+}
+
+#hr{
+    height: 3px;
+}
+
+#label{
+    font-family: sans-serif;
+}
+
+#submit{
+    height: min-content;
+}

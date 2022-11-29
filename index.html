@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mercadolio</title>
+        <link rel="stylesheet" href="mercadolio.css">
+        <link rel="stylesheet" href="registro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="iconom.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div id="jeder">
+            <table>
+                <tr>
+                    <td><img src="iconom.png" alt="icono" id="icono"> </td>
+                    <td><h1>Mercadolio</h1></td>
+                    <td></td>
+                </tr>
+            </table>
+            <nav>
+                <div class="barra barra1">
+                    <a href="todoslosproductos.html" class="transition"><i class='bx bx-sun'></i> Todos los productos</a>
+                </div>
+                <div class="barra barra2">
+                    <a href="#exampleModal" class="transition" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class='bx bx-log-in'></i> Iniciá sesión</a>
+                </div>
+                <div class="barra barra3">
+                    <a href="#exampleModal" class="transition" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class='bx bxs-user-circle'></i> Creá tu cuenta</a>
+                </div>
+                <div class="barra barra4"><a href="comentarios.html" class="transition"><i class='bx bxs-comment'></i> Comentarios y opiniones</a></div>
+            </nav>
+            </div>
+        </header>
+        <main>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="portada.jpg"
+                            class="d-block w-100" alt="uwu">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="portada2.jpg"
+                            class="d-block w-100" alt="uwu">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="portada3.jpg"
+                            class="d-block w-100" alt="uwu">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>    
+            
+
+            <h2>Disfruta nuestras ofertas</h2>
+
+            <div class="seccion">
+                <div class="card">
+                    <img src="mate.jpg" alt="mate" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Mate</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="cafe.jpg" alt="café" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Café</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="harina.jpg" alt="harina" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Harina</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="palmitos.jpg" alt="palmitos" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Palmitos</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <br><hr>
+            <h2>Productos destacados</h2>
+            <div class="seccion">
+                <div class="card">
+                    <img src="mermelada.jpg" alt="mermelada" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Mermelada</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="cacao.jpg" alt="cacao" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Cacao</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="picadillo.jpg" alt="picadillo" class="card-img-top">
+                    <div class="card-title">
+                        <h3>Picadillo</h3>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="headreg">
+                            <img src="iconom.png" alt="ícono">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Mercadolio</h1>
+                        </div>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="datos">
+                                <label for="nombre"><i class='bx bxs-user'></i><br>Nombre</label>
+                                <input type="text">
+                            </div>
+                            <div class="datos">
+                                <label for="email"><i class='bx bx-envelope'></i><br>Email</label>
+                                <input type="email">
+                            </div>
+                            <div class="datos">
+                                <label for="contraseña"><i class='bx bxs-lock-alt'></i><br>Contraseña</label>
+                                <input type="password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <input type="submit">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </main>
+        <hr id="hr">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h4>Seguinos</h4>
+                        <p><i class='bx bxl-facebook'></i> Facebook</p>
+                        <p><i class='bx bxl-instagram'></i> Instagram</p>
+                        <p><i class='bx bxl-linkedin'></i> LinkedIn</p>
+                        <p><i class='bx bxl-youtube'></i> YouTube</p>
+                    </div>
+                    <div class="col-4">
+                        <h4>Otros servicios</h4>
+                        <p>Mercadolio Pago</p>
+                        <p>Mercadolio Shops</p>
+                        <p>Mercadolio Envíos</p>
+                    </div>
+                    <div class="col-4">
+                        <h4>Trabajá con nosotros</h4>
+                        <form>
+                            <label for="email" id="label">Ingresá tu mail</label>
+                            <input type="email" placeholder="Email">
+                            <input type="submit" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
